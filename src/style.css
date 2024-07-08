@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  overflow: hidden;
+  color:white;
+}
+
+.webgl {
+  position: fixed;
+  top: 0;
+  left: 0;
+  outline: none;
+  z-index: -1;
+}
+
+/*  かきたし             */
+
+header {
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+header .logo {
+font-size: 35px;
+
+}
+
+header ul {
+
+  list-style: none;
+}
+header ul li{
+
+  display: inline-block;
+  margin-right: 25px;
+}
+
+header ul li a {
+color: white;
+text-decoration:none;
+font-size: 17px;
+font-weight: 500;
+} 
+
+main {
+
+  position: absolute;
+  top: 46%;
+  left: 50%;
+  transform: translate(-46%, -50%);
+  text-align: center;
+}
+
+main h1 {
+  font-size: 5rem;
+  white-space: nowrap; 
+  margin-bottom: 25px;
+  font-family: 'Crimson Pro', serif;
+  font-size: 60px;
+}
+
+main p {
+
+  font-size: 20px;
+}
+body {
+  font-family: 'Crimson Pro', serif;
+  font-size: 48px;
+}
+
+.merriweather-black {
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+
